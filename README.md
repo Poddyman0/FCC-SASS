@@ -1,25 +1,40 @@
-# SASS
+<p><strong>Mastering Sass for Enhanced CSS</strong></p>
+<p><strong>Description:</strong></p>
+<p>In this course, I delved into Sass (Syntactically Awesome StyleSheets), a powerful CSS extension that enhances the capabilities of traditional CSS. Sass introduces advanced features that simplify and streamline the process of writing and maintaining stylesheets.</p>
 
-My solution proposals for the [SASS](https://www.freecodecamp.org/learn/front-end-development-libraries#sass)
-exercises.
+<p><strong>Technologies Used:</strong></p>
+<ul>
+  <li><strong>Sass:</strong> A CSS preprocessor that extends CSS with variables, nesting, mixins, and more.</li>
+  <li><strong>CSS:</strong> The standard language for styling web pages, which is compiled from Sass.</li>
+</ul>
 
-freeCodeCamp module description:
-> *"Sass, or "Syntactically Awesome StyleSheets", is a language extension of CSS. It adds features that aren't available in basic CSS, which make it easier for you to simplify and maintain the style sheets for your projects. In this Sass course, you'll learn how to store data in variables, nest CSS, create reusable styles with mixins, add logic and loops to your styles, and more."*
-
-## Exercises
-
-- [x] [ 1 - Store Data with Sass Variables](1-store-data-with-sass-variables.html)
-- [x] [ 2 - Nest CSS with Sass](2-nest-css-with-sass.html)
-- [x] [ 3 - Create Reusable CSS with Mixins](3-create-reusable-css-with-mixins.html)
-- [x] [ 4 - Use @if and @else to Add Logic To Your Styles](4-use-if-and-else-to-add-logic-to-your-styles.html)
-- [x] [ 5 - Use @for to Create a Sass Loop](5-use-for-to-create-a-sass-loop.html)
-- [x] [ 6 - Use @each to Map Over Items in a List](6-use-each-to-map-over-items-in-a-list.html)
-- [x] [ 7 - Apply a Style Until a Condition is Met with @while](7-apply-a-style-until-a-condition-is-met-with-while.html)
-- [x] [ 8 - Split Your Styles into Smaller Chunks with Partials](8-split-your-styles-into-smaller-chunks-with-partials.scss)
-- [x] [ 9 - Extend One Set of CSS Styles to Another Element](9-extend-one-set-of-css-styles-to-another-element.html)
-
-⬅️ [Back to main file](../README.md)
-
----
-
-###### Disclaimer: This repository should not be viewed as a facilitator for these courses. <br> This is intended to highlight and memorize my journey through this certification.
+<p><strong>Features Implemented:</strong></p>
+<ul>
+  <li><strong>Variables:</strong>
+    <ul>
+      <li>Stored values such as colors, fonts, and spacing in variables to promote consistency and ease of updates across the stylesheet.</li>
+    </ul>
+  </li>
+  <li><strong>Nesting:</strong>
+    <ul>
+      <li>Utilized nesting to organize CSS rules hierarchically, making the stylesheet more readable and mirroring the HTML structure.</li>
+    </ul>
+  </li>
+  <li><strong>Mixins:</strong>
+    <ul>
+      <li>Created reusable style blocks with mixins, allowing for code reuse and simplifying complex style definitions.</li>
+    </ul>
+  </li>
+  <li><strong>Partials and Imports:</strong>
+    <ul>
+      <li>Organized CSS into smaller, modular files using partials and imported them into a main stylesheet, improving maintainability and structure.</li>
+    </ul>
+  </li>
+  <li><strong>Inheritance with Extend:</strong>
+    <ul>
+      <li>Used Sass’s <code>@extend</code> feature to share styles between selectors, reducing redundancy and ensuring consistency.</li>
+    </ul>
+  </li>
+  <li><strong>Loops and Logic:</strong>
+    <ul>
+      <li>Incorporated loops and conditional statements to dynamically generate CSS rules, handling repetitive patterns efficiently.
